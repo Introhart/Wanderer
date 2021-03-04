@@ -1,5 +1,6 @@
 package com.example.wanderer
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -28,6 +29,8 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.page_map -> {
                 Toast.makeText(applicationContext, "Map", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, MapActivity::class.java)
+                startActivity(intent)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.page_profile -> {
