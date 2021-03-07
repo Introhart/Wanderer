@@ -10,10 +10,12 @@ class MapActivity : AppCompatActivity() {
 
     private var mapView : MapView? = null
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Mapbox.getInstance(applicationContext, getString(R.string.access_token))
         setContentView(R.layout.activity_map)
+//        this.supportActionBar?.hide()
 
         mapView = findViewById(R.id.mapView)
         mapView?.onCreate(savedInstanceState)

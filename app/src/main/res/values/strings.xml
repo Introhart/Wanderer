@@ -4,4 +4,6 @@
     <string name="bottom_nav_title_map">Map</string>
     <string name="bottom_nav_title_profile">Profile</string>
     <string name="access_token">pk.eyJ1IjoiaW50cm9oYXJ0IiwiYSI6ImNrZmhxeDEyajAxNTcyem40cWwwN3Vid2UifQ.FxAIX9Q4O6aNuo2mAgQ4Bw</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
